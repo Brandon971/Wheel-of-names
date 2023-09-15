@@ -1,0 +1,119 @@
+#main {
+    width:1000px;
+}
+
+#left-column {
+    float:left;
+    width:600px;
+    padding-right:15px;
+}
+
+#right-column {
+    float:right;
+    width:300px;
+}
+
+.participants {
+    list-style:none;
+}
+
+.participants li {
+    border-radius:15px;
+    padding:15px;
+    font-family: 'Carter One', arial, serif;
+    font-size:150%;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.participants li:nth-child(2n+1) {
+    background-color:#bada55;
+}
+
+.winner {
+    font-family: 'Carter One', arial, serif;
+    font-size:250%;
+    text-shadow: 2px 2px 2px #000;    
+    display:none;
+}
+
+.winner:before {
+    content: "The Winner is ... "
+}
+
+#joiner{
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow:  rgba(0, 0, 0, 0.1) 0 4px 12px;
+    box-sizing: border-box;
+    color: #bc2dcc;
+    display: inline-flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.add, .spin-trigger {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #bc2dcc;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.add:hover,
+.add:focus{
+    background-color: #9452c3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    transform: translateY(-1px);
+}
+
+.spin-trigger:hover,
+.spin-trigger:focus{
+    background-color:  #9452c3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    transform: translateY(-1px);
+}
+
+#joiner:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    transform: translateY(-1px);
+}
+
+#joiner:focus{
+    border:none;
+}
