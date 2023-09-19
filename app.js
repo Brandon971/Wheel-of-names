@@ -174,13 +174,13 @@
      */
     $.fn.spinwheel.default_options = {
         outterRadius:200, innerRadius:3, textRadius: 160, spinTrigger: '.spin-trigger', 
-        wheelBorderColor: 'black',wheelBorderWidth : 3, wheelTextFont : 'bold 15px sans-serif', wheelTextColor: 'black', wheelTextShadowColor : 'rgb(220,220,220)',
+        wheelBorderColor: 'black',wheelBorderWidth : 3, wheelTextFont : 'bold 15px sans-serif', wheelTextColor: 'black',
         resultTextFont : 'bold 30px sans-serif', arrowColor :'black', paricipants:'.participants', addPplTrigger:'.add', joiner:'.joiner', winnerDiv:'.winner'
     }
 })(jQuery);
 
 $(document).ready(function(){
    $('.canvas').spinwheel({
-       pplArray : ["♈", "♉", "♊", "♋","♌", "♍", "♎", "♏","♐", "♑", "♒", "♓"]
+       pplArray : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
    });
 });
