@@ -20,7 +20,7 @@ body{
     background-color: #fff;
     border: 1px solid transparent;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    border-radius: 0px 50px 50px ;
+    border-radius: 10px 50px 50px ;
 }
 
 #right-column {
