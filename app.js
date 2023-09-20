@@ -154,24 +154,7 @@
                 
         methods.init.apply(this,[]);
     }
-    
-    /*  ---  please look at the index.html source in order to understand what they do ---
-     *  outterRadius : the big circle border
-     *  innerRadius  : the inner circle border
-     *  textRadius   : How far the the text on the wheel locate from the center point
-     *  spinTrigger  : the element that trigger the spin action 
-     *  wheelBorderColor : what is the wheel border color
-     *  wheelBorderWidth : what is the "thickness" of the border of the wheel
-     *  wheelTextFont : what is the style of the text on the wheel
-     *  wheelTextColor : what is the color of the tet on the wheel
-     *  wheelTextShadow : what is the shadow for the text on the wheel
-     *  resultTextFont : it is not being used currently
-     *  arrowColor : what is the color of the arrow on the top
-     *  participants : what is the container for participants for the wheel
-     *  joiner : usually a form input where user can put in their name
-     *  addPplTrigger : what element will trigger the add participant
-     *  winDiv : the element you want to display the winner
-     */
+
     $.fn.spinwheel.default_options = {
         outterRadius:200, innerRadius:3, textRadius: 160, spinTrigger: '.spin-trigger', 
         wheelBorderColor: 'black',wheelBorderWidth : 3, wheelTextFont : 'bold 15px sans-serif', wheelTextColor: 'black',
@@ -183,4 +166,4 @@ $(document).ready(function(){
    $('.canvas').spinwheel({
        pplArray : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
    });
-});
+})

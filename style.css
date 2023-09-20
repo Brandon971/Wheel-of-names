@@ -1,17 +1,32 @@
+body{
+   padding: 0px;
+   background-image: url(./assets/pexels-laura-paredis-12749792.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
 #main {
     width:1000px;
     margin: auto;
+    height: 800px;
+    padding: 0px;
 }
 
 #left-column {
     float:left;
     width:600px;
     padding-right:15px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    border-radius: 0px 50px 50px ;
 }
 
 #right-column {
     float:right;
     width:300px;
+    background-color: #fff;
     border: 1px solid transparent ;
     box-shadow:  rgba(0, 0, 0, 0.1) 0 4px 12px;
     border-radius: 10px;
@@ -55,7 +70,7 @@
 
 
 .winner:before {
-    content: "The Winner is ... "
+    content: "The Winner is "
 }
 
 #joiner{
